@@ -17,12 +17,9 @@ class UpdateThread(threading.Thread):
             self.run_updates()
 
     def run_updates(self) -> None:
-        print("Updating...")
         try:
             updated, errors = update_manga()
             if updated:
                 self.action()
-            for error in errors:
-                print(error)
         except Exception as e:
-            print(e)
+            pass

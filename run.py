@@ -1,5 +1,3 @@
-import time
-
 from ui.app import MainWindow
 
 
@@ -9,4 +7,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print("main finished")

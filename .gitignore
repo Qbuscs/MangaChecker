@@ -10,3 +10,7 @@ static/
 static/**
 
 config.json
+manga_progress.json
+
+dist/
+dist/**
